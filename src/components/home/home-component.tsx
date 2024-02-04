@@ -9,7 +9,7 @@ export const HomeComponent = () => {
   const { T } = useI18nContext()
   const { color } = useChangeColorContext()
   return (
-    <section className='grid grid-cols-3 md:gap-5 gap-2 w-full md:w-[50vw] h-full p-2 pt-0 snap-center'>
+    <section className='grid grid-cols-3 gap-2 w-full md:w-[50vw] h-full p-2 pt-0 snap-center'>
       <h1 className='text-slate-800 flex flex-col col-span-2 row-span-4 justify-center p-5 dark:bg-slate-900 rounded-md bg-slate-200 dark:text-slate-200 text-xl'>
         {T.home.title}
         <span className={`font-bold text-4xl ${color.text}`}>Maruan Vicente Cardenas</span>

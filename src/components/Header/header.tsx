@@ -11,7 +11,7 @@ export const Header = () => {
     <header
       className='md:w-[50vw] w-full row-start-1 row-end-2 col-start-1 col-end-5 p-2'
     >
-      <div className='bg-slate-200 dark:bg-slate-900 text-slate-800 dark:text-slate-200 flex flex-col md:flex-row justify-between items-center rounded-md p-5'>
+      <div className='bg-slate-200 dark:bg-slate-900 text-slate-800 dark:text-slate-200 flex flex-col md:flex-row justify-between items-center rounded-md p-2'>
         <div className='flex justify-center items-center gap-5 pb-5 md:pb-0'>
           <DarkModeButton />
           <ColorsButtons />
